@@ -44,3 +44,48 @@ h3 {
     margin: 5px;
 
 }
+
+button {
+    color: gray;
+    border: #333 solid;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 5px;
+    text-align: right;
+}
+
+.remove{
+    background-color: transparent;
+    border: none;
+    color: red;
+    padding: 15px;
+    margin: 5px;
+    text-align: right;
+}
+
+#new-item{
+  display: block;
+  width: 350px;
+  margin:  auto 0;
+  border-color:#333;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px 5px 5px 10px;
+  align-items: center;
+}
+
+#completed,#diff{
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+
+#newiterm-name{
+    width: 100px;
+
+}
+
+#newiterm-difficult{
+    width: 50px;
+    
+}

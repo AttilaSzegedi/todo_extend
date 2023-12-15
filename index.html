@@ -3,6 +3,7 @@
     <title>Attila- Todo App</title>
     <!-- <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" href="style.css" >  
+   
     <script src="index.js" type="module"></script>
   </head>
   <body>
@@ -15,8 +16,24 @@
        
       <div  id="completed">
         <span id="completed-title">Completed:</span>
-        <span id="progess"></span>
+        <span id="progess"></span><br>
        </div>
+       <div  id="diff">     
+        <span id="diff-max">Most difficult item:</span>
+        <span id="diff-max-v"></span>
+       </div>
+            
+      <div  id="new-item">
+        <input id="newiterm-name" type="text" placeholder="To-do name">
+        <input id="newiterm-difficult" type="number" placeholder="Difficult level (1-5)">
+        <button id="newitem-button">Add New To-do</button>
+       </div>
+      <div id="sort">
+        <h3>Made order</h3>
+        <button id="sort-asc">Asc</button>
+        <button id="sort-desc">Desc</button>
+      </div>
+
    </div>
   </body>
 </html>
