@@ -1,0 +1,46 @@
+/* Basic Style */
+body {
+    background: #fff;
+    color: #333;
+    font-family: Lato, sans-serif;
+}
+
+h3 {
+   text-align: center;
+} 
+
+.container {
+    display: block;
+    width: 400px;
+    margin: 100px auto 0;
+    border-color:#333;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px 5px 5px 10px;
+}
+
+#completed {
+    margin: 15px 0;
+    border-top: #333 solid;
+}
+
+
+#completed-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: gray;
+    padding: 15px;
+    margin: 5px;
+    text-align: right;
+}
+
+.incomplete {
+    color: darkred;
+    padding: 5px;
+    margin: 5px;
+
+}

@@ -1,0 +1,1 @@
+export const calcprogress = todos => todos.filter(t => t.isCompleted).length / todos.length;
